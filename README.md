@@ -12,4 +12,4 @@ This repoistory involves the practice sets of it.
 
 ## Other Useful things
 
-1 . Lecture 6 - Version Control System(popular - git), find them [here].(https://www.github.com/IumoInfinium/missing_semester/lecture6/resources.md)
+1 . Lecture 6 - Version Control System(popular - git), find them [here](https://www.github.com/IumoInfinium/missing_semester/lecture6/resources.md)
