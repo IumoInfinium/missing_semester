@@ -12,3 +12,5 @@ Here is a list of some good resources, you can refer to get to know some more...
 5. [Graphviz](https://graphviz.org/) A tool to visualize structured information in the form of abstract graphs.
 
 6. [Pycall Graph](http://pycallgraph.slowchop.com/en/master/) - A Python module that creates call graph visualizations for Python applications.
+
+7. Some articles and pages to know more about the linux process hierarchy - [Processes](https://www.usna.edu/Users/cs/bilzor/ic411/calendar.php?type=class&event=6),a [gist](https://gist.github.com/CMCDragonkai/f58afb7e39fcc422097849b853caa140) to know all.
