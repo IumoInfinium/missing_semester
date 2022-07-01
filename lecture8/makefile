@@ -7,4 +7,4 @@ plot-%.png: %.dat plot.py
 .PHONY: clean
 
 clean:
-	rm -f paper.pdf paper.aux paper.log
+	rm -f paper.pdf paper.aux paper.log plot-data.png
