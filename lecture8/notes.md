@@ -21,7 +21,7 @@ You tell the build system, that you want a particular *target*, and its *job* is
 
 One such example of the build system is `make`. One of the most common build system, installed on almost every UNIX-system. It has it's cons, but it is works well till moderate projects.
 
-	When you run `make`, it consults a file called `MakeFile` in current directory. All the targets, their dependencies, and rules are defined in that file. Looking like -
+When you run `make`, it consults a file called `MakeFile` in current directory. All the targets, their dependencies, and rules are defined in that file. Looking like -
 
 ```(MakeFile)
 paper.pdf: paper.tex plot-data.png
@@ -56,8 +56,8 @@ make: *** No rule to make target 'plot-data.png', needed by 'paper.pdf'.  Stop.
 It cannot make that file, due to pattern rule, and since the source file `data.dat` doesn't exist, so it tells the same.
 
 So, let's try again  with these files -
-- [paper.tex]((https://github.com/IumoInfinium/missing_semester/blob/main/lecture8/paper.tex)
-- [plot.py]((https://github.com/IumoInfinium/missing_semester/blob/main/lecture8/plot.py)
+- [paper.tex](https://github.com/IumoInfinium/missing_semester/blob/main/lecture8/paper.tex)
+- [plot.py](https://github.com/IumoInfinium/missing_semester/blob/main/lecture8/plot.py)
 - [data.dat](https://github.com/IumoInfinium/missing_semester/blob/main/lecture8/data.dat)
 
 After making changes like above file, try running `make` again.
