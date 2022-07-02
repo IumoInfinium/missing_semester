@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+# Hook for running 'make' before commits, and if it fails, abort the commit as well.
+echo "Starting to execute 'make' command"
+LIGHTGREEN='\033[1;32m'
+LIGHTRED='\033[1;31m'
+NOCOLOR='\033[0m'
+if ($(make > output 2>&1)); then
+	echo -e "${LIGHTGREEN}Successfully passed the pre-commit test${NOCOLOR}"
+	exit 0
+else
+	echo "${LIGHTRED}Error : Not able to run 'make'${NOCOLOR}"
+	exit 1
+fi
