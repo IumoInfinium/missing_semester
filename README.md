@@ -7,8 +7,8 @@ This repoistory involves the practice sets of it.
 
 | About      | Links |
 | ----------- | ----------- |
-| Course Webiste      | [Missing Semester](https://www.missing.csail.mit.edu/2020)       |
-| Github Repository   | [Repo](https://github.com/missing-semester/missing-semester)        |
+| Course Webiste      | [Missing Semester](https://missing.csail.mit.edu/)       |
+| Github Repository   | [Repository](https://github.com/missing-semester/missing-semester)        |
 
 ## Links to useful resources lecture-wise
 
